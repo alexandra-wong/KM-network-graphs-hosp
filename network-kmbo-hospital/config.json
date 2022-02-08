@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Alexandra Wong"
+  },
+  "text": {
+    "more": "Replace this with a longer description",
+    "intro": "Testing the KMbO and Hospitals network 2",
+    "title": "Knowledge Mobilization Network Graph - KMbOs and Hospitals"
+  },
+  "legend": {
+    "edgeLabel": "People",
+    "colorLabel": "Green and Orange",
+    "nodeLabel": "KMbOs and Hospitals"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "affiliation to tahsn",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "size"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 20
+    },
+    "graphProperties": {
+      "maxEdgeSize": 40,
+      "minEdgeSize": 3,
+      "minNodeSize": 5,
+      "maxNodeSize": 35
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
